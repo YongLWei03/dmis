@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="ControlInexistence" xml:space="preserve">
+    <value>Control No Exist</value>
+  </data>
+  <data name="CurrentDuty" xml:space="preserve">
+    <value>Current Duty</value>
+  </data>
+  <data name="DbFail" xml:space="preserve">
+    <value>Database Server Fail!</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DeleteBeforeConfirm" xml:space="preserve">
+    <value>Do you confirm to delete this record?</value>
+  </data>
+  <data name="DeleteFailMessage" xml:space="preserve">
+    <value> Record deleted fail,please contact dba!</value>
+  </data>
+  <data name="DeleteMessage" xml:space="preserve">
+    <value>Please Select a record to delete!</value>
+  </data>
+  <data name="DeleteSuccessMessage" xml:space="preserve">
+    <value> Record delete succeed!</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>error</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Error Message</value>
+  </data>
+  <data name="ErrorPosition" xml:space="preserve">
+    <value>Error Position</value>
+  </data>
+  <data name="ExitBeforeConfirm" xml:space="preserve">
+    <value>Do you confirm to exit this system?</value>
+  </data>
+  <data name="GenExcelFileFailMessage" xml:space="preserve">
+    <value>Generate Excel file fail!</value>
+  </data>
+  <data name="GridViewSqlErrorMessage" xml:space="preserve">
+    <value>GridView binding SQL error!</value>
+  </data>
+  <data name="ItemNotNull" xml:space="preserve">
+    <value>Some items not null!</value>
+  </data>
+  <data name="JoinTeam" xml:space="preserve">
+    <value>Join Team</value>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="ModifyMessage" xml:space="preserve">
+    <value>Please Select a record to modify!</value>
+  </data>
+  <data name="NoEmpty" xml:space="preserve">
+    <value>is not empty;</value>
+  </data>
+  <data name="NoReportMessage" xml:space="preserve">
+    <value>This function has no print!</value>
+  </data>
+  <data name="NoSqlMessage" xml:space="preserve">
+    <value>SQL is not exit!</value>
+  </data>
+  <data name="NoTableID" xml:space="preserve">
+    <value>no TableID para</value>
+  </data>
+  <data name="NumericalValeError" xml:space="preserve">
+    <value>is not numerical value;</value>
+  </data>
+  <data name="PageFirst" xml:space="preserve">
+    <value>FirstPage</value>
+  </data>
+  <data name="PageLast" xml:space="preserve">
+    <value>LastPage</value>
+  </data>
+  <data name="PageNext" xml:space="preserve">
+    <value>NextPage</value>
+  </data>
+  <data name="PageNumber" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="PagePrevious" xml:space="preserve">
+    <value>PreviousPage</value>
+  </data>
+  <data name="PageTurn" xml:space="preserve">
+    <value>PageNumber</value>
+  </data>
+  <data name="PageTurnOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="PrimaryColumnInexistence" xml:space="preserve">
+    <value>Primary Column No Exist!</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="ProductInfo" xml:space="preserve">
+    <value>DF8360 Dispatch Produce Mangement System</value>
+  </data>
+  <data name="Records" xml:space="preserve">
+    <value>Records</value>
+  </data>
+  <data name="ReloginBeforeConfirm" xml:space="preserve">
+    <value>Do you confirm to logout and relogin this system?</value>
+  </data>
+  <data name="ReportPrint" xml:space="preserve">
+    <value>Report Print</value>
+  </data>
+  <data name="Retrieve" xml:space="preserve">
+    <value>query</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SaveFailMessage" xml:space="preserve">
+    <value>Data Saving fail please contact to dba!</value>
+  </data>
+  <data name="SaveSuccessMessage" xml:space="preserve">
+    <value>Data Saving succeed!</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SearchBuildWindow" xml:space="preserve">
+    <value>Searching</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="SortBuildWindow" xml:space="preserve">
+    <value>Sorting</value>
+  </data>
+  <data name="TimeValueError" xml:space="preserve">
+    <value>Datetime value Error!</value>
+  </data>
+  <data name="UserOrPwdWrong" xml:space="preserve">
+    <value>User code Or Password wrong!</value>
+  </data>
+  <data name="WkAcceptTaskFailMessage" xml:space="preserve">
+    <value>Accept this task fail!</value>
+  </data>
+  <data name="WkConfirmAccept" xml:space="preserve">
+    <value>Do you confirm to accept this task?</value>
+  </data>
+  <data name="WkConfirmDelete" xml:space="preserve">
+    <value>Do you confirm to delete this task?</value>
+  </data>
+  <data name="WkConfirmFinish" xml:space="preserve">
+    <value>Do you confirm to finish this task?</value>
+  </data>
+  <data name="WkConfirmReassign" xml:space="preserve">
+    <value>Do you confirm to reassign this task?</value>
+  </data>
+  <data name="WkConfirmReReassign" xml:space="preserve">
+    <value>This task has been reassigned,do you reassign again?</value>
+  </data>
+  <data name="WkConfirmRestore" xml:space="preserve">
+    <value>Do you confirm to restore this task?</value>
+  </data>
+  <data name="WkConfirmRetake" xml:space="preserve">
+    <value>Do you confirm to retake this task?</value>
+  </data>
+  <data name="WkConfirmSubmit" xml:space="preserve">
+    <value>Do you confirm to submit this task to next step?</value>
+  </data>
+  <data name="WkConfirmSuspend" xml:space="preserve">
+    <value>Do you confirm to suspend this task?</value>
+  </data>
+  <data name="WkConfirmWithdraw" xml:space="preserve">
+    <value>Do you confirm to withdraw this task to previous step?</value>
+  </data>
+  <data name="WkFailToWithdrawTaskMessage" xml:space="preserve">
+    <value>Fail to Withdraw this task, please contact to dba!</value>
+  </data>
+  <data name="WkFinishFailMessage" xml:space="preserve">
+    <value>This Instance finished fail,please contact to dba!</value>
+  </data>
+  <data name="WkFirstStepNoWithdraw" xml:space="preserve">
+    <value>First step can not be withdrawed!</value>
+  </data>
+  <data name="WkHasNextWorkingStepNoWithdraw" xml:space="preserve">
+    <value>This task has next working task, can not be withdrawed!</value>
+  </data>
+  <data name="WkInsertInstanceFailMessage" xml:space="preserve">
+    <value>Insert Instance Fail,please contact to dba!</value>
+  </data>
+  <data name="WkInsertTaskFailMessage" xml:space="preserve">
+    <value>Insert Taxk Fail,please contact to dba!</value>
+  </data>
+  <data name="WkMustSelectOneTache" xml:space="preserve">
+    <value>You must select a next tache!</value>
+  </data>
+  <data name="WkNoDoc" xml:space="preserve">
+    <value>No Finding associated doc!</value>
+  </data>
+  <data name="WkNoFindPackNo" xml:space="preserve">
+    <value>Soryy,No Find Instace ID!</value>
+    <comment>没有找到对应的业务号！</comment>
+  </data>
+  <data name="WkNoFindWorkFlow" xml:space="preserve">
+    <value>Soryy,No Find WorkFlow ID!</value>
+  </data>
+  <data name="WkNoReassigned" xml:space="preserve">
+    <value>NoReassigned</value>
+  </data>
+  <data name="WkNoRightToRead" xml:space="preserve">
+    <value>Sorry,You has no right to read this doc!</value>
+  </data>
+  <data name="WkReassigned" xml:space="preserve">
+    <value>Reassigned</value>
+  </data>
+  <data name="WkRestore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="WkSelectWorkleader" xml:space="preserve">
+    <value>Please select a work leader!</value>
+  </data>
+  <data name="WkStatusAbolish" xml:space="preserve">
+    <value>Abolish</value>
+  </data>
+  <data name="WkStatusAll" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="WkStatusComplete" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="WkStatusFinish" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="WkStatusSuspend" xml:space="preserve">
+    <value>Suspend</value>
+  </data>
+  <data name="WkStatusWithdraw" xml:space="preserve">
+    <value>Withdraw</value>
+  </data>
+  <data name="WkStatusWorking" xml:space="preserve">
+    <value>Working</value>
+  </data>
+  <data name="WkSubmitFailMessage" xml:space="preserve">
+    <value>This task fail to send,please contact to dba!</value>
+  </data>
+</root>

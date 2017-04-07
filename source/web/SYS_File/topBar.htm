@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>框架的移动栏</title>
+		<SCRIPT language="javascript">
+            function oa_tool1(){
+                if(window.parent.queryID.rows=="0,8,*")
+	                {
+	                oa1_tree.title="隐藏功能模块列表";
+	                window.parent.queryID.rows="151,8,*";
+	                }
+                else
+                {
+	                oa1_tree.title="显示功能模块列表";
+	                window.parent.queryID.rows="0,8,*";
+	                }
+            }
+		</SCRIPT>    
+</head>
+	<BODY text="#000000" leftMargin="0" topMargin="0" class="LeftBar" BGCOLOR="dodgerblue">
+		<TABLE height="100%" cellSpacing="0" cellPadding="0" width="8" align="center" border="0">
+		    <TBODY>
+				<TR align="center" valign="middle">
+					<TD style="WIDTH: 2px" >
+						<DIV id="oa1_tree" title="隐藏功能模块列表" onclick="oa_tool1();" >
+							<IMG id="frameshow1" src="img/p_3.gif">
+						</DIV>
+					</TD>
+				</TR>
+			</TBODY>
+		</TABLE>
+	</BODY>
+</html>

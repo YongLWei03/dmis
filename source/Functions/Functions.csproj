@@ -1,0 +1,87 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{67431824-63E2-41F8-9456-64A3FD039F30}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Functions</RootNamespace>
+    <AssemblyName>Functions</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\web\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CDateTime.cs" />
+    <Compile Include="CheckRole.cs" />
+    <Compile Include="clsFunction.cs" />
+    <Compile Include="ComboxItem.cs" />
+    <Compile Include="ControlWebValidator.cs" />
+    <Compile Include="ControlWindowValidator.cs" />
+    <Compile Include="CustomControlFill.cs" />
+    <Compile Include="CustomControlSave.cs" />
+    <Compile Include="DownFile.cs" />
+    <Compile Include="DownLoadFile.cs" />
+    <Compile Include="DrawGraph.cs" />
+    <Compile Include="Evaluator.cs" />
+    <Compile Include="ExcelOpt.cs" />
+    <Compile Include="FieldToValue.cs" />
+    <Compile Include="FillDropDownList.cs" />
+    <Compile Include="CMix.cs" />
+    <Compile Include="GridviewEdit.cs" />
+    <Compile Include="JScript.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SetCustomControlNULL.cs" />
+    <Compile Include="SetRight.cs" />
+    <Compile Include="TextFile.cs" />
+    <Compile Include="ValueToField.cs" />
+    <Compile Include="WebWorkFlow.cs" />
+    <Compile Include="XmlFile.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CustomControlLib\CustomControlLib.csproj">
+      <Project>{5AD98B69-6EF0-48C0-BC52-07CFE05A1AE4}</Project>
+      <Name>CustomControlLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{30550143-EECA-49E7-BDC8-3031C7AEDB60}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1000 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.AutoScaleMode" type="System.Windows.Forms.AutoScaleMode, System.Windows.Forms">
+    <value>Font</value>
+  </data>
+  <data name="lblMsg1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblMsg1.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Red</value>
+  </data>
+  <data name="lblMsg1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblMsg1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblMsg1.Name" xml:space="preserve">
+    <value>lblMsg1</value>
+  </data>
+  <data name="lblMsg1.Text" xml:space="preserve">
+    <value>La información mostrada</value>
+  </data>
+  <data name="dtpStart1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpStart1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="dtpStart1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dtpStart1.Name" xml:space="preserve">
+    <value>dtpStart1</value>
+  </data>
+  <data name="dtpEnd1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpEnd1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="dtpEnd1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dtpEnd1.Name" xml:space="preserve">
+    <value>dtpEnd1</value>
+  </data>
+  <data name="label7.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label7.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>La fecha que termina</value>
+  </data>
+  <data name="label6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>La fecha que comienza</value>
+  </data>
+  <data name="label1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>La base de datos</value>
+  </data>
+  <data name="btnQuery.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnQuery.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnQuery.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnQuery.Name" xml:space="preserve">
+    <value>btnQuery</value>
+  </data>
+  <data name="btnQuery.Text" xml:space="preserve">
+    <value>Consultar</value>
+  </data>
+  <data name="btnQuery.UseVisualStyleBackColor" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbbDataBase.DropDownStyle" type="System.Windows.Forms.ComboBoxStyle, System.Windows.Forms">
+    <value>DropDownList</value>
+  </data>
+  <data name="cbbDataBase.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbbDataBase.FormattingEnabled" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbbDataBase.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cbbDataBase.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cbbDataBase.Name" xml:space="preserve">
+    <value>cbbDataBase</value>
+  </data>
+  <data name="cbbTable.DropDownHeight" type="System.Int32, mscorlib">
+    <value>306</value>
+  </data>
+  <data name="cbbTable.DropDownStyle" type="System.Windows.Forms.ComboBoxStyle, System.Windows.Forms">
+    <value>DropDownList</value>
+  </data>
+  <data name="cbbTable.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbbTable.FormattingEnabled" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbbTable.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cbbTable.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cbbTable.Name" xml:space="preserve">
+    <value>cbbTable</value>
+  </data>
+  <data name="label2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Formulario</value>
+  </data>
+  <data name="groupBox4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="groupBox4.TabStop" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="grpMain1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpMain1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="grpMain1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpMain1.Name" xml:space="preserve">
+    <value>grpMain1</value>
+  </data>
+  <data name="grpMain1.TabStop" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="grpMain1.Text" xml:space="preserve">
+    <value>La base de datos principal</value>
+  </data>
+  <data name="dgvSlaveServer1.AllowUserToAddRows" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgvSlaveServer1.AllowUserToDeleteRows" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgvSlaveServer1.AllowUserToOrderColumns" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dgvSlaveServer1.ColumnHeadersHeightSizeMode" type="System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="dgvSlaveServer1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgvSlaveServer1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="dgvSlaveServer1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dgvSlaveServer1.Name" xml:space="preserve">
+    <value>dgvSlaveServer1</value>
+  </data>
+  <data name="resource.Height" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="grpSlave1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpSlave1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="grpSlave1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpSlave1.Name" xml:space="preserve">
+    <value>grpSlave1</value>
+  </data>
+  <data name="grpSlave1.TabStop" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="grpSlave1.Text" xml:space="preserve">
+    <value>La base de datos de reserva</value>
+  </data>
+  <data name="tabPage1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabPage1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Ver los datos</value>
+  </data>
+  <data name="tabPage1.UseVisualStyleBackColor" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSaveMsg.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveMsg.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnSaveMsg.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnSaveMsg.Name" xml:space="preserve">
+    <value>btnSaveMsg</value>
+  </data>
+  <data name="btnSaveMsg.Text" xml:space="preserve">
+    <value>Conservar la información</value>
+  </data>
+  <data name="btnSaveMsg.UseVisualStyleBackColor" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSelectAll.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSelectAll.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnSelectAll.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnSelectAll.Name" xml:space="preserve">
+    <value>btnSelectAll</value>
+  </data>
+  <data name="btnSelectAll.Text" xml:space="preserve">
+    <value>Seleccionar todo</value>
+  </data>
+  <data name="btnSelectAll.UseVisualStyleBackColor" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnCancelAll.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancelAll.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnCancelAll.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnCancelAll.Name" xml:space="preserve">
+    <value>btnCancelAll</value>
+  </data>
+  <data name="btnCancelAll.Text" xml:space="preserve">
+    <value>Cancelar todo</value>
+  </data>
+  <data name="btnCancelAll.UseVisualStyleBackColor" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>La fecha que comienza</value>
+  </data>
+  <data name="btnStart.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnStart.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnStart.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnStart.Name" xml:space="preserve">
+    <value>btnStart</value>
+  </data>
+  <data name="btnStart.Text" xml:space="preserve">
+    <value>Comenzar</value>
+  </data>
+  <data name="btnStart.UseVisualStyleBackColor" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dtpStart.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpStart.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="dtpStart.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dtpStart.Name" xml:space="preserve">
+    <value>dtpStart</value>
+  </data>
+  <data name="dtpEnd.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpEnd.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="dtpEnd.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dtpEnd.Name" xml:space="preserve">
+    <value>dtpEnd</value>
+  </data>
+  <data name="label4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>La fecha que termina</value>
+  </data>
+  <data name="groupBox3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="groupBox3.TabStop" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lsbMsg.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lsbMsg.FormattingEnabled" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lsbMsg.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lsbMsg.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lsbMsg.Name" xml:space="preserve">
+    <value>lsbMsg</value>
+  </data>
+  <data name="groupBox2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="groupBox2.TabStop" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Exportar la información</value>
+  </data>
+  <data name="ckbTables.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ckbTables.FormattingEnabled" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ckbTables.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ckbTables.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ckbTables.MultiColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ckbTables.Name" xml:space="preserve">
+    <value>ckbTables</value>
+  </data>
+  <data name="groupBox1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="groupBox1.TabStop" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Formulario de la base de datos que se ha registrado </value>
+  </data>
+  <data name="tabPage2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabPage2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Mantener datos de diferencia</value>
+  </data>
+  <data name="tabPage2.UseVisualStyleBackColor" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tableName.Text" xml:space="preserve">
+    <value>Nombre de datos</value>
+  </data>
+  <data name="whereDiffer.Text" xml:space="preserve">
+    <value>Dónde desconforman</value>
+  </data>
+  <data name="lsvDifferTables.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lsvDifferTables.FullRowSelect" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lsvDifferTables.GridLines" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lsvDifferTables.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lsvDifferTables.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lsvDifferTables.Name" xml:space="preserve">
+    <value>lsvDifferTables</value>
+  </data>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADM
+        CgAAAk1TRnQBSQFMAgEBAwEAAQQBAAEEAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAARADAAEBAQABCAYAAQQYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/wQAARITAAEJAfEC7wEH
+        AfIBpyMAAQ8BZQIQARIRAAG8AUkBlwFJAW0BkgHPIwACsgFlAQ8CEAwAAacCzwHzAXIBVgGYAXgBlwFt
+        AfABzwIAAfcNZhMAArIBZQEPARABEwHsCQAB9AHwAZIB7AFyAXgBGwGfAXgBVgETAewBvAHPAQAB9wG8
+        AwcD7wO1AvcBZhQAArIBZQEPARIBEAESARMCEAHsAwABzwG7AYsBuwGLAZABkQFPAQgBcgFQAZcBcgEH
+        Ac8BAAH3A/8BBwH/AvQBtQIZAQkB9wFmFQACsgFlAQAB7AESBBABEwIAAfACiwG0AbMBtAGtAU8BCAFP
+        AUkBeAFyAbwBzwEAAfcD/wEHAv8B9AHvAxkBtQFmFgABsgH7AQ8BAAEwAVMBMAETAhAB7AEAAbUBiwG0
+        AbUBtAGtAawBcgEbAQgBlwGYAXIB7QHPAQAB9wHwArwEBwPvArUBZhgAAfsBEAPvARMBAwIQAQABiwGt
+        AdwBugG0AdwBswGtAbQBGwEIAZgBeAHsAc8BAAG1A/8BvAP/AQcC9AEZAbUBZhgAAewB4gEJA+8B7AEQ
+        AewBAAK0AdwBGQG7AWYBrgGzAawB8QIIAXIB8AGnAQABtQP/AbwD/wEHAf8C9AG1AWYXAAEQA+IBCQHb
+        Au8BEAIAAa0BCQEZAf8BCQJmAboBtAEIAVYBwgHvAfQCAAHvAfEC8AO8BAcC7wFmFwABDwfiARACAAEJ
+        Ad0CGQEJAbUBtAEJAbMBSQGXAQgBzwMAAbsD/wHwA/8BBwP/Ae8BZhcAARAH4gEQAgABuwHcAd0ECQG6
+        AbQBswHtAfQEAAG7A/8B8AP/AbwD/wEHAWYXAAHsAQkB/wXiAewCAAHPAQkBswGsAbMBGQIJArQBBwHP
+        BAAF1gS0Ba0YAAETAQkC/wHiAQkBEwUAAccBswEJAfQBtAEZAZEB7wHPBQAB1gMJA9wC1gTVAa0ZAAET
+        Ae8B4gGSARMGAAGnAbQCCQGzAQkBuwHwAc8FAAbWAdUEtAOtJAABzwG7AfACtAG7AfQmAAFCAU0BPgcA
+        AT4DAAEoAwABQAMAARADAAEBAQABAQUAAYAXAAP/AQAB7wH/Af4BAwL/AgABgwH/Af4BAwL/AgABgQH/
+        AeABAQGAAQECAAHAAX8BwAEAAYABAQIAAeABAwGAAQABgAEBAgAB8QEBAYABAAGAAQECAAH4AQABgAEA
+        AYABAQIAAf4BAAGAAQABgAEBAgAB/gEAAYABAAGAAQECAAH8AQEBgAEBAYABAQIAAfwBAQGAAQMBgAEB
+        AgAB/AEBAYABBwGAAQECAAH8AQEBgAEHAYABAQIAAf4BAwHgAQ8BgAEBAgAB/wEHAeABDwGAAQECAAL/
+        AeABPwL/AgAL
+</value>
+  </data>
+  <data name="imageList1.TransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="lsvDifferTables.UseCompatibleStateImageBehavior" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lsvDifferTables.View" type="System.Windows.Forms.View, System.Windows.Forms">
+    <value>Details</value>
+  </data>
+  <data name="tabPage4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabPage4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage4.Name" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Formulario de la base de datos que tiene diferencia</value>
+  </data>
+  <data name="tabPage4.UseVisualStyleBackColor" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTableName.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTableName.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Navy</value>
+  </data>
+  <data name="lblTableName.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblTableName.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblTableName.Name" xml:space="preserve">
+    <value>lblTableName</value>
+  </data>
+  <data name="lblTableName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 14</value>
+  </data>
+  <data name="lblTableName.Text" xml:space="preserve">
+    <value>Nombre de datos</value>
+  </data>
+  <data name="dgvMainStruct.AllowUserToAddRows" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgvMainStruct.AllowUserToDeleteRows" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgvMainStruct.ColumnHeadersHeightSizeMode" type="System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="dgvMainStruct.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgvMainStruct.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="dgvMainStruct.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dgvMainStruct.Name" xml:space="preserve">
+    <value>dgvMainStruct</value>
+  </data>
+  <data name="resource.Height1" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="groupBox6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox6.Name" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="groupBox6.TabStop" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Estructura del formulario de la base de datos principal</value>
+  </data>
+  <data name="dgvSlaveStruct.AllowUserToAddRows" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgvSlaveStruct.AllowUserToDeleteRows" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgvSlaveStruct.ColumnHeadersHeightSizeMode" type="System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="dgvSlaveStruct.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgvSlaveStruct.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="dgvSlaveStruct.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dgvSlaveStruct.Name" xml:space="preserve">
+    <value>dgvSlaveStruct</value>
+  </data>
+  <data name="resource.Height2" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="groupBox7.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox7.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox7.Name" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="groupBox7.TabStop" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>Estructura del formulario de la base de datos de reserva</value>
+  </data>
+  <data name="tabPage5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabPage5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage5.Name" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Estructura de formulario con diferencia</value>
+  </data>
+  <data name="tabPage5.UseVisualStyleBackColor" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabControl2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabControl2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabControl2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabControl2.Name" xml:space="preserve">
+    <value>tabControl2</value>
+  </data>
+  <data name="tabControl2.SelectedIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 12</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>La base de datos</value>
+  </data>
+  <data name="btnSearch.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSearch.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnSearch.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 19</value>
+  </data>
+  <data name="btnSearch.Name" xml:space="preserve">
+    <value>btnSearch</value>
+  </data>
+  <data name="btnSearch.Text" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="btnSearch.UseVisualStyleBackColor" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbbDataBase3.DropDownStyle" type="System.Windows.Forms.ComboBoxStyle, System.Windows.Forms">
+    <value>DropDownList</value>
+  </data>
+  <data name="cbbDataBase3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbbDataBase3.FormattingEnabled" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbbDataBase3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cbbDataBase3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cbbDataBase3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 20</value>
+  </data>
+  <data name="cbbDataBase3.Name" xml:space="preserve">
+    <value>cbbDataBase3</value>
+  </data>
+  <data name="groupBox5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox5.Name" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="groupBox5.TabStop" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabPage3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabPage3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage3.Name" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Buscar estructura de formulario con diferencia</value>
+  </data>
+  <data name="tabPage3.UseVisualStyleBackColor" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabControl1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabControl1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabControl1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="tabControl1.SelectedIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAICAQAAAAAADoAgAAJgAAABAQEAAAAAAAKAEAAA4DAAAoAAAAIAAAAEAAAAABAAQAAAAAAIAC
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAICAgADAwMAAAAD/AAD/
+        AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAEQAAAAADcAAAAAAAAAAAAZkQAAAAMzcAAAAAAAAAABmbEQAAB7MzcAAAAAAAAAGZsZsQAAB7
+        MzcAAAAAAAAZmxm5sAAAB7MzcAAAAAABmbGbmwAAAAB7MzcAAAAAGZsZubAAAAAAB7MzcAAAAZmxm5sA
+        AAAAAAB7MzcAAAGbGbmwAAAAAAAAB7MzcAAZuZubAAAAAAAAAAB7MzARCZuZsAAAAAAAAAAAB7MwuRCZ
+        uwAAAAAAAAAAAAB7MwuRCwAAAAAAAAAAAAAAB7BwuRAAAAAAAAAAAAAAAAAHjwuwAAAAAAAAAAAAAAAA
+        ePAwAAAAAAcAAAAAAAAAB48LMzcAAAAHcAAAAAAAAHjwB7MzcAAAeIcAAAAAAAePAAB7MzcAB4gAAAAA
+        AAB48AAAB7Mwd3CAAAAAAAAHjwAAAAB7B4eHAAAAAAB3ePAAAAAAAHh4dwAAAAAAeI8AAAAAAACHh4cA
+        AAAAB4iPAAAAAAAAeHiAAAAAAAeI/wAAAAAABwiIAAAAAAD4/wAAAAAAAHiAAAAAAAAADwAAAAAAAACI
+        AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
+        /z/3//4f4//8D8H/+AeA//ADwH/gA+A/wAfwH4AP+A8AH/wHAD/+AAB//wAA//+AAf//wAP//+AP///w
+        D+//4A/H/8AHw/+CA4H/BwAD/g+AD/AfwB/gP+Af4H/gH8B/4D/Af8B/gP+A/8P/h//v/w////8/////
+        //8oAAAAEAAAACAAAAABAAQAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAA
+        AACAAIAAgIAAAICAgADAwMAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAAAAAAAAAAA
+        AAADcAAAAAmwAAs3AAAAm5kAALNwAAm5kAAACzcAG5kAAAAAswGbkAAAAAALOxsAAAAAAAAPsAAAAAAA
+        APs3AAcAAAAPALNweAAAAPAAC3dwAACPAAAAd3AAB48AAAeIAAAPAAAACAAAAAAAAAAAAAAA//8EGv/n
+        AACPw5sZh4EAAMMDB7PgBwAA8A+xm/gfAAD8OwB7+BEAAPMBGbnHhwAAj4cAB4+PcACfP5ub/38AAA==
+</value>
+  </data>
+  <data name="$this.Name" xml:space="preserve">
+    <value>frmDataConsistent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Mantenimiento de la unanimidad de servidores de las bases dobles de datos</value>
+  </data>
+  <data name="dgvMainServer1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgvMainServer1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="dgvMainServer1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+</root>

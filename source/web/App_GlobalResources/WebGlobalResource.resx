@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="ComBrowseByDay001" xml:space="preserve">
+    <value>请设置日期查询列！</value>
+  </data>
+  <data name="ComModiyfPassword001" xml:space="preserve">
+    <value>请输入原口令！</value>
+  </data>
+  <data name="ComModiyfPassword002" xml:space="preserve">
+    <value>请输入新口令！</value>
+  </data>
+  <data name="ComModiyfPassword003" xml:space="preserve">
+    <value>请输入确认口令！</value>
+  </data>
+  <data name="ComModiyfPassword004" xml:space="preserve">
+    <value>新口令和确认口令不一致！</value>
+  </data>
+  <data name="ComModiyfPassword005" xml:space="preserve">
+    <value>您输入的原口令有误！</value>
+  </data>
+  <data name="ComModiyfPassword006" xml:space="preserve">
+    <value>口令修改成功！</value>
+  </data>
+  <data name="ComModiyfPassword007" xml:space="preserve">
+    <value>口令修改失败，请联系管理员！</value>
+  </data>
+  <data name="Common001" xml:space="preserve">
+    <value>创建新班次失败，请联系系统管理员！</value>
+  </data>
+  <data name="Common002" xml:space="preserve">
+    <value>把当日的第一个班次的状态设置当值时失败，请联系系统管理员！</value>
+  </data>
+  <data name="Common003" xml:space="preserve">
+    <value>此班次记录不存在！</value>
+  </data>
+  <data name="Common004" xml:space="preserve">
+    <value>确定要交班?</value>
+  </data>
+  <data name="ComSearchBuild001" xml:space="preserve">
+    <value>是否要删除?</value>
+  </data>
+  <data name="ComSearchBuild002" xml:space="preserve">
+    <value>"删除此查询条件"</value>
+  </data>
+  <data name="ComSearchBuild003" xml:space="preserve">
+    <value>等于</value>
+  </data>
+  <data name="ComSearchBuild004" xml:space="preserve">
+    <value>小于</value>
+  </data>
+  <data name="ComSearchBuild005" xml:space="preserve">
+    <value>大于</value>
+  </data>
+  <data name="ComSearchBuild006" xml:space="preserve">
+    <value>大于等于</value>
+  </data>
+  <data name="ComSearchBuild007" xml:space="preserve">
+    <value>小于等于</value>
+  </data>
+  <data name="ComSearchBuild008" xml:space="preserve">
+    <value>不等于</value>
+  </data>
+  <data name="ComSearchBuild009" xml:space="preserve">
+    <value>包含</value>
+  </data>
+  <data name="ComSearchBuild010" xml:space="preserve">
+    <value>并且</value>
+  </data>
+  <data name="ComSearchBuild011" xml:space="preserve">
+    <value>或者</value>
+  </data>
+  <data name="ComSearchBuild012" xml:space="preserve">
+    <value>列名</value>
+  </data>
+  <data name="ComSearchBuild013" xml:space="preserve">
+    <value>关系符</value>
+  </data>
+  <data name="ComSearchBuild014" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="ComSearchBuild015" xml:space="preserve">
+    <value>逻辑符</value>
+  </data>
+  <data name="ComSearchBuild016" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="ComSearchBuild017" xml:space="preserve">
+    <value>无效</value>
+  </data>
+  <data name="ComSearchBuild018" xml:space="preserve">
+    <value>不是时间类型</value>
+  </data>
+  <data name="ComSearchBuild019" xml:space="preserve">
+    <value>不是数值类型</value>
+  </data>
+  <data name="ComSearchBuild020" xml:space="preserve">
+    <value>还没有形成任何查询条件！</value>
+  </data>
+  <data name="ComSearchDetail001" xml:space="preserve">
+    <value>您由于长时间未操作导致身份失效，请重新登录！</value>
+  </data>
+  <data name="ComSearchResult001" xml:space="preserve">
+    <value>详细</value>
+  </data>
+  <data name="ComSetSort001" xml:space="preserve">
+    <value>升</value>
+  </data>
+  <data name="ComSetSort002" xml:space="preserve">
+    <value>降</value>
+  </data>
+  <data name="ComSetSort003" xml:space="preserve">
+    <value>请先选择要排序的列!</value>
+  </data>
+  <data name="ControlInexistence" xml:space="preserve">
+    <value>控件不存在;</value>
+  </data>
+  <data name="CurrentDuty" xml:space="preserve">
+    <value>当值</value>
+  </data>
+  <data name="DbFail" xml:space="preserve">
+    <value>数据库服务器失效！</value>
+  </data>
+  <data name="DDShift001" xml:space="preserve">
+    <value>此班次的交班时间是</value>
+  </data>
+  <data name="DDShift002" xml:space="preserve">
+    <value>,还没有到交班时间，不允许交班！</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="DeleteBeforeConfirm" xml:space="preserve">
+    <value>确认要删除此记录？</value>
+  </data>
+  <data name="DeleteFailMessage" xml:space="preserve">
+    <value>数据删除失败，请联系管理员！</value>
+  </data>
+  <data name="DeleteMessage" xml:space="preserve">
+    <value>请先选择要删除的记录！</value>
+  </data>
+  <data name="DeleteSuccessMessage" xml:space="preserve">
+    <value>数据删除成功！</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>错误信息：</value>
+  </data>
+  <data name="ErrorPosition" xml:space="preserve">
+    <value>错误发生地点：</value>
+  </data>
+  <data name="ExitBeforeConfirm" xml:space="preserve">
+    <value>确定要退出本系统！</value>
+  </data>
+  <data name="FileIterativeMessage" xml:space="preserve">
+    <value>服务器上存在同名的文件，请更改文件名！</value>
+  </data>
+  <data name="FileNoAccessories" xml:space="preserve">
+    <value>没有上传的附件！</value>
+  </data>
+  <data name="FileNoPath" xml:space="preserve">
+    <value>此功能没有设置文件存放路径！</value>
+  </data>
+  <data name="FileUploadFailMessage" xml:space="preserve">
+    <value>上传文件失败，请联系管理员！</value>
+  </data>
+  <data name="GenExcelFileFailMessage" xml:space="preserve">
+    <value>生成EXCEL文件失败！</value>
+  </data>
+  <data name="GridViewSqlErrorMessage" xml:space="preserve">
+    <value>GridView控件的SQL语句有误！</value>
+  </data>
+  <data name="Insert" xml:space="preserve">
+    <value>插入</value>
+  </data>
+  <data name="ItemNotNull" xml:space="preserve">
+    <value>某项不允许为空！</value>
+  </data>
+  <data name="JoinTeam" xml:space="preserve">
+    <value>交班</value>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="ModifyMessage" xml:space="preserve">
+    <value>请先选择要修改的记录！</value>
+  </data>
+  <data name="NoEmpty" xml:space="preserve">
+    <value>不允许为空;</value>
+  </data>
+  <data name="NoPrimaryColumns" xml:space="preserve">
+    <value>没有设置主键列！</value>
+  </data>
+  <data name="NoRecords" xml:space="preserve">
+    <value>无记录！</value>
+  </data>
+  <data name="NoReportMessage" xml:space="preserve">
+    <value>此模块没有设置报表打印功能！</value>
+  </data>
+  <data name="NoSqlMessage" xml:space="preserve">
+    <value>数据查询语句不存在！</value>
+  </data>
+  <data name="NoTableID" xml:space="preserve">
+    <value>无TableID参数</value>
+  </data>
+  <data name="NumericalValeError" xml:space="preserve">
+    <value>不是数值类型;</value>
+  </data>
+  <data name="PageFirst" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="PageLast" xml:space="preserve">
+    <value>末页</value>
+  </data>
+  <data name="PageNext" xml:space="preserve">
+    <value>下一页</value>
+  </data>
+  <data name="PageNumber" xml:space="preserve">
+    <value>页码：</value>
+  </data>
+  <data name="PagePrevious" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="PageTurn" xml:space="preserve">
+    <value>转向</value>
+  </data>
+  <data name="PageTurnOk" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="PrimaryColumnInexistence" xml:space="preserve">
+    <value>主键列不存在!</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="ProductInfo" xml:space="preserve">
+    <value>调度生产管理系统</value>
+  </data>
+  <data name="Records" xml:space="preserve">
+    <value>记录数：</value>
+  </data>
+  <data name="ReloginBeforeConfirm" xml:space="preserve">
+    <value>确定要重新登录！</value>
+  </data>
+  <data name="ReportPrint" xml:space="preserve">
+    <value>报表打印</value>
+  </data>
+  <data name="Retrieve" xml:space="preserve">
+    <value>检索</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="SaveFailMessage" xml:space="preserve">
+    <value>数据保存失败，请联系管理员！</value>
+  </data>
+  <data name="SaveSuccessMessage" xml:space="preserve">
+    <value>数据保存成功！</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="SearchBuildWindow" xml:space="preserve">
+    <value>自定义查询窗口</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="Shift" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="SortBuildWindow" xml:space="preserve">
+    <value>排序定义窗口</value>
+  </data>
+  <data name="TimeValueError" xml:space="preserve">
+    <value>时间格式不对;</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="UserOrPwdWrong" xml:space="preserve">
+    <value>用户名或口令不对！</value>
+  </data>
+  <data name="WkAcceptTaskFailMessage" xml:space="preserve">
+    <value>接单失败！</value>
+  </data>
+  <data name="WkConfirmAbolish" xml:space="preserve">
+    <value>你确认作废此业务吗？</value>
+  </data>
+  <data name="WkConfirmAccept" xml:space="preserve">
+    <value>你确认接单吗？</value>
+  </data>
+  <data name="WkConfirmDelete" xml:space="preserve">
+    <value>你确定要把此业务删除？</value>
+  </data>
+  <data name="WkConfirmFinish" xml:space="preserve">
+    <value>该项目已办理完成,是否要归档?</value>
+  </data>
+  <data name="WkConfirmReassign" xml:space="preserve">
+    <value>确定要把此业务改派？</value>
+  </data>
+  <data name="WkConfirmReReassign" xml:space="preserve">
+    <value>此业务已经改派，确定还要改派？</value>
+  </data>
+  <data name="WkConfirmRestore" xml:space="preserve">
+    <value>你确定要把此业务恢复？</value>
+  </data>
+  <data name="WkConfirmRetake" xml:space="preserve">
+    <value>确定要抽回此任务？</value>
+  </data>
+  <data name="WkConfirmSubmit" xml:space="preserve">
+    <value>确定要提交到下一步?</value>
+  </data>
+  <data name="WkConfirmSuspend" xml:space="preserve">
+    <value>你确定要把此业务挂起？</value>
+  </data>
+  <data name="WkConfirmWithdraw" xml:space="preserve">
+    <value>确定要退回到上一步?</value>
+  </data>
+  <data name="WkFailToWithdrawTaskMessage" xml:space="preserve">
+    <value>抽回任务失败,请联系管理员！</value>
+  </data>
+  <data name="WkFinishFailMessage" xml:space="preserve">
+    <value>此业务归档失败，请联系统管理员！</value>
+  </data>
+  <data name="WkFirstStepNoWithdraw" xml:space="preserve">
+    <value>流程的开始步骤不允许退回！</value>
+  </data>
+  <data name="WkHasNextWorkingStepNoWithdraw" xml:space="preserve">
+    <value>还有下级任务在处理，不允许退回!</value>
+  </data>
+  <data name="WkInsertInstanceFail" xml:space="preserve">
+    <value>创建实例数据失败！</value>
+  </data>
+  <data name="WkInsertTaskFailMessage" xml:space="preserve">
+    <value>创建任务数据失败！</value>
+  </data>
+  <data name="WkMustSelectOneTache" xml:space="preserve">
+    <value>至少要选择一个发送的环节！</value>
+  </data>
+  <data name="WkNoDoc" xml:space="preserve">
+    <value>无法找到相应的文档！</value>
+  </data>
+  <data name="WkNoFindPackNo" xml:space="preserve">
+    <value>没有找到对应的业务号！</value>
+  </data>
+  <data name="WkNoFindWorkFlow" xml:space="preserve">
+    <value>无法找到工作流编号！</value>
+  </data>
+  <data name="WkNoReassigned" xml:space="preserve">
+    <value>未改派</value>
+  </data>
+  <data name="WkNoRightToRead" xml:space="preserve">
+    <value>对不起！你无权操作本文档！</value>
+  </data>
+  <data name="WkReassigned" xml:space="preserve">
+    <value>已改派</value>
+  </data>
+  <data name="WkRestore" xml:space="preserve">
+    <value>恢复</value>
+  </data>
+  <data name="WkSelectWorkleader" xml:space="preserve">
+    <value>请选择工作负责人！</value>
+  </data>
+  <data name="WkStatusAbolish" xml:space="preserve">
+    <value>作废</value>
+  </data>
+  <data name="WkStatusAll" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="WkStatusChecked" xml:space="preserve">
+    <value>已审</value>
+  </data>
+  <data name="WkStatusComplete" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="WkStatusFinish" xml:space="preserve">
+    <value>结案</value>
+  </data>
+  <data name="WkStatusNoCheck" xml:space="preserve">
+    <value>未审</value>
+  </data>
+  <data name="WkStatusSuspend" xml:space="preserve">
+    <value>挂起</value>
+  </data>
+  <data name="WkStatusWithdraw" xml:space="preserve">
+    <value>退回</value>
+  </data>
+  <data name="WkStatusWorking" xml:space="preserve">
+    <value>在办</value>
+  </data>
+  <data name="WkSubmitFailMessage" xml:space="preserve">
+    <value>此任务发送失败，请联系统管理员！</value>
+  </data>
+</root>

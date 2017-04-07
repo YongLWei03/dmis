@@ -1,0 +1,422 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8C8F8658-94AC-4937-BAE7-2F1D8B6B4986}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Main</RootNamespace>
+    <AssemblyName>Main</AssemblyName>
+    <StartupObject>PlatForm.CMain</StartupObject>
+    <ApplicationIcon>Caption.ICO</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\WINNT\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\Log.cs" />
+    <Compile Include="CMain.cs" />
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrame.designer.cs">
+      <DependentUpon>MainFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmLogin.es.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrame.es.resx">
+      <DependentUpon>MainFrame.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrame.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmColumns.es.resx">
+      <DependentUpon>frmColumns.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmColumns.resx">
+      <DependentUpon>frmColumns.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmDepart.es.resx">
+      <DependentUpon>frmDepart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmDepart.resx">
+      <DependentUpon>frmDepart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmDepartSelect.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDepartSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmDepartType.es.resx">
+      <DependentUpon>frmDepartType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmDepartType.resx">
+      <DependentUpon>frmDepartType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmLogSearch.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLogSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmMember.es.resx">
+      <DependentUpon>frmMember.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmMember.resx">
+      <DependentUpon>frmMember.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmMemeberRole.es.resx">
+      <DependentUpon>frmMemeberRole.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmMemeberRole.resx">
+      <DependentUpon>frmMemeberRole.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmPurview.es.resx">
+      <DependentUpon>frmPurview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmPurview.resx">
+      <DependentUpon>frmPurview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmRole.es.resx">
+      <DependentUpon>frmRole.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmRole.resx">
+      <DependentUpon>frmRole.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmRoleMemeber.es.resx">
+      <DependentUpon>frmRoleMemeber.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmRoleMemeber.resx">
+      <DependentUpon>frmRoleMemeber.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmRolePurview.es.resx">
+      <DependentUpon>frmRolePurview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmRolePurview.resx">
+      <DependentUpon>frmRolePurview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmSelectColumn.resx">
+      <DependentUpon>frmSelectColumn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmSelectRelatingTableColumn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelectRelatingTableColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmSelectTable.resx">
+      <DependentUpon>frmSelectTable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmSelectTableIDs.resx">
+      <DependentUpon>frmSelectTableIDs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmSetOrder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSetOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmTable.es.resx">
+      <DependentUpon>frmTable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmTable.resx">
+      <DependentUpon>frmTable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmTableType.es.resx">
+      <DependentUpon>frmTableType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmTableType.resx">
+      <DependentUpon>frmTableType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmTreeMenu.es.resx">
+      <DependentUpon>frmTreeMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmTreeMenu.resx">
+      <DependentUpon>frmTreeMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmTreeMenuSelect.es.resx">
+      <DependentUpon>frmTreeMenuSelect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmTreeMenuSelect.resx">
+      <DependentUpon>frmTreeMenuSelect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\frmTreeMenuVisible.resx">
+      <DependentUpon>frmTreeMenuVisible.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Right\frmColumns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmColumns.Designer.cs">
+      <DependentUpon>frmColumns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\frmDepart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmDepart.designer.cs">
+      <DependentUpon>frmDepart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\frmDepartSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmDepartSelect.Designer.cs">
+      <DependentUpon>frmDepartSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\frmDepartType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmDepartType.designer.cs">
+      <DependentUpon>frmDepartType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\frmLogSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmLogSearch.Designer.cs">
+      <DependentUpon>frmLogSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\frmMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmMember.designer.cs">
+      <DependentUpon>frmMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\frmMemeberRole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmMemeberRole.designer.cs">
+      <DependentUpon>frmMemeberRole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\frmPurview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmPurview.Designer.cs">
+      <DependentUpon>frmPurview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\frmRole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmRole.Designer.cs">
+      <DependentUpon>frmRole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\frmRoleMemeber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmRoleMemeber.Designer.cs">
+      <DependentUpon>frmRoleMemeber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\frmRolePurview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmRolePurview.Designer.cs">
+      <DependentUpon>frmRolePurview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\frmSelectColumn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmSelectColumn.Designer.cs">
+      <DependentUpon>frmSelectColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\frmSelectRelatingTableColumn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmSelectRelatingTableColumn.Designer.cs">
+      <DependentUpon>frmSelectRelatingTableColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\frmSelectTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmSelectTable.Designer.cs">
+      <DependentUpon>frmSelectTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\frmSelectTableIDs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmSelectTableIDs.Designer.cs">
+      <DependentUpon>frmSelectTableIDs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\frmSetOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmSetOrder.Designer.cs">
+      <DependentUpon>frmSetOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\frmTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmTable.Designer.cs">
+      <DependentUpon>frmTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\frmTableType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmTableType.Designer.cs">
+      <DependentUpon>frmTableType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\frmTreeMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmTreeMenu.Designer.cs">
+      <DependentUpon>frmTreeMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\frmTreeMenuSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmTreeMenuSelect.Designer.cs">
+      <DependentUpon>frmTreeMenuSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\frmTreeMenuVisible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\frmTreeMenuVisible.Designer.cs">
+      <DependentUpon>frmTreeMenuVisible.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CustomControlLib\CustomControlLib.csproj">
+      <Project>{5AD98B69-6EF0-48C0-BC52-07CFE05A1AE4}</Project>
+      <Name>CustomControlLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataBackup\DataBackup.csproj">
+      <Project>{F83B5B63-56FC-4E4C-961A-2DAC7D68D371}</Project>
+      <Name>DataBackup</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{30550143-EECA-49E7-BDC8-3031C7AEDB60}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Functions\Functions.csproj">
+      <Project>{67431824-63E2-41F8-9456-64A3FD039F30}</Project>
+      <Name>Functions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Report\DmisReport.csproj">
+      <Project>{1D9AABA7-89FD-424F-93A9-A39C20D91B30}</Project>
+      <Name>DmisReport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WorkFlow\WorkFlow.csproj">
+      <Project>{F8FEF495-0635-4732-9C92-1FC805A9173E}</Project>
+      <Name>WorkFlow</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Columns.gif" />
+    <None Include="img\Depart.gif" />
+    <None Include="img\Exit.BMP" />
+    <None Include="img\Flow.gif" />
+    <None Include="img\MemberRole.gif" />
+    <None Include="img\Purview.gif" />
+    <None Include="img\Member.gif" />
+    <Content Include="Caption.ICO" />
+    <Content Include="img\rectclock.bmp" />
+    <None Include="img\teban.gif" />
+    <None Include="img\USER.BMP" />
+    <None Include="img\TreeMenuVisible.gif" />
+    <None Include="img\TreeMenu.gif" />
+    <None Include="img\Table.gif" />
+    <None Include="img\StausMember.gif" />
+    <None Include="img\StatusTime.gif" />
+    <None Include="img\RolePurview.gif" />
+    <None Include="img\RoleMember.gif" />
+    <None Include="img\Role.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

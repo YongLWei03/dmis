@@ -1,0 +1,175 @@
+﻿body
+{
+	font-size: 9pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+}
+.captiontd
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	color: white;
+	background-color:#00cc00;
+	text-align: center;
+	font-weight: bold;
+}
+.bottomtd
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	height:30px;
+	background-color: #00cc00;
+}
+.font
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;	
+}
+.contenttable
+{
+	background-color: #00cc00;
+	padding-right: 1px;
+	padding-left: 1px;
+	padding-bottom: 1px;
+	margin: 0px;
+	padding-top: 1px;
+}
+.detailtd
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	width: 15%;
+	background-color: #00cc00;
+	vertical-align: middle;
+	text-align: center;
+	height: 30px;
+}
+
+.controltd
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	width: 30%;
+	vertical-align:middle;
+	
+	background-color: #ffffff;
+	border-bottom: 1px dashed;
+}
+
+.buttontd
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	width: 5%;
+	vertical-align:middle;
+	background-color: #ffffff;
+	border-bottom: 1px dashed;
+}
+
+INPUT
+{
+	border-right: #00cc00 1px solid;
+	border-top: #00cc00 1px solid;
+	border-left: #00cc00 1px solid;
+	border-bottom: #00cc00 1px solid;
+}
+.detailtable
+{
+	border-right: #00cc00 1px solid;
+	border-top: #00cc00 1px solid;
+	border-left: #00cc00 1px solid;
+	border-bottom: #00cc00 1px solid;
+	width: 700px;
+	
+}
+.multipletxt
+{
+	width:500px;
+	height:50px;
+}
+.contenttd
+{
+	border-right: #00cc00 1px solid;
+	border-top: #00cc00 1px solid;
+	border-left: #00cc00 1px solid;
+	border-bottom: #00cc00 1px solid;
+}
+.SelectedTopBorder
+{
+    border-right: #00cc00 1px solid;
+    border-top: #00cc00 1px solid;
+    background: none transparent scroll repeat 0% 0%;
+    
+    border-left: #00cc00 1px solid;
+    color: #00cc00;
+    border-bottom: #00cc00 0px solid;
+}
+.TopBorder
+{
+    border-right: #00cc00 1px solid;
+    border-top: #00cc00 1px solid;
+    background:#00cc00;
+    border-left: #00cc00 1px solid;
+    color: #00cc00;
+    border-bottom: #00cc00 1px solid;
+}
+
+.SepBorder
+{
+    border-top-width: 0px;
+    border-left-width: 0px;
+    font-size: 1px;
+    border-bottom: #00cc00 1px solid;
+    border-right-width: 0px;
+}
+
+.SepBorderNew
+{
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom: #00cc00 1px solid;
+    border-right-width: 0px;
+}
+
+.ContentBorder
+{
+    border-right: #00cc00 1px solid;
+    border-top: #00cc00 0px solid;
+    border-left: #00cc00 1px solid;
+    border-bottom: #00cc00 1px solid;
+    height: 450px;
+    width: 100%;
+}
+
+.treediv
+{
+	left: 0px;
+	position: absolute;
+	top: 20px;
+}
+.middlediv
+{
+	left: 130px;
+	position: absolute;
+	top: 20px;
+}
+
+
+.tablewidth
+{
+	width:600px;
+}
+.devicedetailtable
+{
+	width: 600px;
+	border-right: 1px solid;
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+}
+.test
+{
+	background-color: springgreen;
+	color: lightgreen;
+}
+

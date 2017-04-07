@@ -1,0 +1,14 @@
+INSERT INTO T_FILE_TYPE ( TID, TYPE_NAME, ICO, TYPE, ORDER_ID, SUFFIX ) VALUES ( 1, '其它文件', '../img/fileType/other.gif', 'default', 1, ' ' );
+INSERT INTO T_FILE_TYPE ( TID, TYPE_NAME, ICO, TYPE, ORDER_ID, SUFFIX ) VALUES ( 2, 'Word 文档', '../img/fileType/word.gif', 'application/msword', 2, 'doc' );
+INSERT INTO T_FILE_TYPE ( TID, TYPE_NAME, ICO, TYPE, ORDER_ID, SUFFIX ) VALUES ( 3, 'Excel工作表', '../img/fileType/excel.gif', 'application/vnd.ms-excel', 3, 'xls' );
+INSERT INTO T_FILE_TYPE ( TID, TYPE_NAME, ICO, TYPE, ORDER_ID, SUFFIX ) VALUES ( 4, '图片文件', '../img/fileType/bmp.gif', 'image/bmp', 4, 'gif,jpg,bmp' );
+INSERT INTO T_FILE_TYPE ( TID, TYPE_NAME, ICO, TYPE, ORDER_ID, SUFFIX ) VALUES ( 5, 'Access 项目', '../img/fileType/access.gif', 'application/msaccess', 5, 'mdb' );
+INSERT INTO T_FILE_TYPE ( TID, TYPE_NAME, ICO, TYPE, ORDER_ID, SUFFIX ) VALUES ( 6, '演示文稿', '../img/fileType/ppt.gif', 'application/vnd.ms-powerpoint', 6, 'ppt' );
+INSERT INTO T_FILE_TYPE ( TID, TYPE_NAME, ICO, TYPE, ORDER_ID, SUFFIX ) VALUES ( 7, 'HTML文件', '../img/fileType/html.gif', 'text/html', 7, 'htm,html' );
+INSERT INTO T_FILE_TYPE ( TID, TYPE_NAME, ICO, TYPE, ORDER_ID, SUFFIX ) VALUES ( 8, '记事本', '../img/fileType/note.gif', 'text/plain', 8, 'txt' );
+INSERT INTO T_FILE_TYPE ( TID, TYPE_NAME, ICO, TYPE, ORDER_ID, SUFFIX ) VALUES ( 9, '应用程序', '../img/fileType/exe.gif', 'application/octet-stream', 9, 'exe,bat' );
+INSERT INTO T_FILE_TYPE ( TID, TYPE_NAME, ICO, TYPE, ORDER_ID, SUFFIX ) VALUES ( 10, 'Adobe文件', '../img/fileType/pdf.gif', 'application/pdf', 10, 'pdf' );
+
+INSERT INTO T_FILE_TYPE ( TID, TYPE_NAME, ICO, TYPE, ORDER_ID, SUFFIX ) VALUES ( 11, '视频文件', '../img/fileType/media.gif', 'video/mpeg', 11, 'rm,avi,mpg' );
+INSERT INTO T_FILE_TYPE ( TID, TYPE_NAME, ICO, TYPE, ORDER_ID, SUFFIX ) VALUES ( 12, '压缩文件', '../img/fileType/zip.gif', 'application/x-zip-compressed', 12, 'rar,zip' );
+

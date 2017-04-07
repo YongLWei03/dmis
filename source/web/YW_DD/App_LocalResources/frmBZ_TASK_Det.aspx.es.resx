@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>Nombre de segmento</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>El responsable de trabajo</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>El trabajador 1</value>
+  </data>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>El trabajador 2</value>
+  </data>
+  <data name="BoundFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>El trabajador 3</value>
+  </data>
+  <data name="BoundFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.HeaderText" xml:space="preserve">
+    <value>La fecha que comienza el trabajo</value>
+  </data>
+  <data name="BoundFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.HeaderText" xml:space="preserve">
+    <value>Caso del despacho</value>
+  </data>
+  <data name="BoundFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.HeaderText" xml:space="preserve">
+    <value>Problemas quedados</value>
+  </data>
+  <data name="BoundFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.HeaderText" xml:space="preserve">
+    <value>La fecha que termina el trabajo</value>
+  </data>
+  <data name="btnAcceptResource1.Text" xml:space="preserve">
+    <value>La aceptación de tarea</value>
+  </data>
+  <data name="btnAcceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAddFileResource1.Text" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="btnAddFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCloseResource1.Text" xml:space="preserve">
+    <value>Volver</value>
+  </data>
+  <data name="btnCloseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDelFileResource1.Text" xml:space="preserve">
+    <value>Suprimir</value>
+  </data>
+  <data name="btnDelFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDownResource1.Text" xml:space="preserve">
+    <value>Descargar</value>
+  </data>
+  <data name="btnDownResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPrintResource1.Text" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="btnPrintResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRefreshResource1.Text" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="btnRefreshResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveCloseResource1.Text" xml:space="preserve">
+    <value>Conservar y volver</value>
+  </data>
+  <data name="btnSaveCloseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveResource1.Text" xml:space="preserve">
+    <value>Conservar</value>
+  </data>
+  <data name="btnSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSendResource1.Text" xml:space="preserve">
+    <value>Entregar</value>
+  </data>
+  <data name="btnSendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnWithdrawResource1.Text" xml:space="preserve">
+    <value>Retirar</value>
+  </data>
+  <data name="btnWithdrawResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCHECK_CONCLUSIONResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dltFilesResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dltFilesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hcbSTATIONResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbSelectResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbSelectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbSelectResource2.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbSelectResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCHECK_CONCLUSIONResource1.Text" xml:space="preserve">
+    <value>Conclusión de verificación</value>
+  </data>
+  <data name="lblCHECK_CONCLUSIONResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCHECK_DATEResource1.Text" xml:space="preserve">
+    <value>La hora de verificación </value>
+  </data>
+  <data name="lblCHECK_DATEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCHECK_NOTEResource1.Text" xml:space="preserve">
+    <value>Nota de verificación</value>
+  </data>
+  <data name="lblCHECK_NOTEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCHECKERResource1.Text" xml:space="preserve">
+    <value>La persona que verifica</value>
+  </data>
+  <data name="lblCHECKERResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCONTENTResource1.Text" xml:space="preserve">
+    <value>El contenido de trabajo</value>
+  </data>
+  <data name="lblCONTENTResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDISPOSE_ENDTIMEResource1.Text" xml:space="preserve">
+    <value>La fecha que termina el trabajo</value>
+  </data>
+  <data name="lblDISPOSE_ENDTIMEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDISPOSE_STARTTIMEResource1.Text" xml:space="preserve">
+    <value>La fecha que comienza el trabajo</value>
+  </data>
+  <data name="lblDISPOSE_STARTTIMEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDISPOSEResource1.Text" xml:space="preserve">
+    <value>El contenido del despacho</value>
+  </data>
+  <data name="lblDISPOSEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblENDTIMEResource1.Text" xml:space="preserve">
+    <value>La fecha estimada que termina</value>
+  </data>
+  <data name="lblENDTIMEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFuncNameResource1.Text" xml:space="preserve">
+    <value>Lista de la tarea del grupo</value>
+  </data>
+  <data name="lblFuncNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFZRResource1.Text" xml:space="preserve">
+    <value>El trabajadores</value>
+  </data>
+  <data name="lblFZRResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLEAVINGSResource1.Text" xml:space="preserve">
+    <value>Problemas quedados</value>
+  </data>
+  <data name="lblLEAVINGSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNOTEResource1.Text" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="lblNOTEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPHResource1.Text" xml:space="preserve">
+    <value>Número de la lista de tareas</value>
+  </data>
+  <data name="lblPHResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSTARTERResource1.Text" xml:space="preserve">
+    <value>La persona que inicia la tarea</value>
+  </data>
+  <data name="lblSTARTERResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSTARTTIMEResource1.Text" xml:space="preserve">
+    <value>La fecha estimada que comienza</value>
+  </data>
+  <data name="lblSTARTTIMEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSTATIONResource1.Text" xml:space="preserve">
+    <value>La subestación transformadora</value>
+  </data>
+  <data name="lblSTATIONResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbnView1Resource1.Text" xml:space="preserve">
+    <value>El contenido de trabajo de la lista de tareas</value>
+  </data>
+  <data name="lbnView1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbnView2Resource1.Text" xml:space="preserve">
+    <value>El segmento que está despachando</value>
+  </data>
+  <data name="lbnView2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbnView3Resource1.Text" xml:space="preserve">
+    <value>Todos los segmentos de despacho</value>
+  </data>
+  <data name="lbnView3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbnView4Resource1.Text" xml:space="preserve">
+    <value>Anexos relacionales</value>
+  </data>
+  <data name="lbnView4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Calificado</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Descalificado</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>La lista de tareas del grupo</value>
+  </data>
+  <data name="txtCHECK_NOTEResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCHECK_NOTEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCHECK_PACK_NOResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCHECK_PACK_NOResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCHECK_TIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCHECK_TIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCHECKERResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCHECKERResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCONTENTResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCONTENTResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDISPOSE_PACKNOResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDISPOSE_PACKNOResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDISPOSE_TIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDISPOSE_TIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDISPOSEResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDISPOSEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtF_FLOWNAMEResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtF_FLOWNAMEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFZRResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFZRResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtJDR1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtJDR1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtJDR2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtJDR2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtJDR3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtJDR3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLEAVINGSResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLEAVINGSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNOTEResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNOTEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPACK_NOResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPACK_NOResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPHResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPHResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSTARTERResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSTARTERResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdlCHECK_DATEResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdlCHECK_DATEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdlDISPOSE_ENDTIMEResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdlDISPOSE_ENDTIMEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdlDISPOSE_STARTTIMEResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdlDISPOSE_STARTTIMEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdlENDTIMEResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdlENDTIMEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdlSTARTTIMEResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdlSTARTTIMEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wgvCompleteTaskResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wgvCompleteTaskResource1.EmptyDataText" xml:space="preserve">
+    <value>No hay segmentos que se han terminado.</value>
+  </data>
+  <data name="wgvCompleteTaskResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

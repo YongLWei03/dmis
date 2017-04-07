@@ -1,0 +1,90 @@
+﻿/*   2009-06-11  新增的样式*/
+/***细线表格****/
+.slim_table
+{
+	background-color: #00000;
+	border-width: 0px;
+	padding: 0px;
+	width: 80%;
+	
+}
+/***细线表格表头（也是一个单元格，但与其它单元格颜色不一样）****/
+.slim_table_head
+{
+	background-color: lightskyblue;
+	text-align: center;
+	font-weight: bold;
+}
+/***细线表格单元格描述****/
+.slim_table_td_desc
+{
+	background-color: #dcdcdc;
+	text-align: center;
+}
+/***细线表格单元格控件****/
+.slim_table_td_control
+{
+	background-color: #ffffff;
+	text-align: left;
+}
+
+/*列表的头区*/
+#list_header
+{
+	font-weight: bold;
+	width: 100%;
+	text-align: left;
+	color: darkred;
+	background-image: url(../img/main_bar.jpg);
+}
+
+/*列表数据操作控件区*/
+#list_control
+{
+	text-align: left;
+	width: 100%;
+}
+
+/*列表数据显示区（主要是GridView）*/
+#list_data
+{
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+	height:300px;
+}
+
+/*列表分页控件显示区*/
+#list_pager
+{
+	vertical-align: middle;
+	text-align: left;
+	width: 100%;
+}
+
+/*列表显示分页信息（第几页 共几页）*/
+#pager_info
+{
+	font-size: 9pt;
+	color: black;
+	text-align: center;
+	width: 300px;
+}
+
+/*不可见表格,用于布局分页控件和数据操作控件*/
+#invisible_table
+{
+	visibility: hidden;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	border-width:0px;
+}
+
+
+/*不可见表格某单元格的属性*/
+#invisible_cell
+{
+	text-align: center;
+	width: 150px;
+}

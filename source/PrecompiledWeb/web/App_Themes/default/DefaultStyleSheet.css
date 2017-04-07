@@ -1,0 +1,534 @@
+﻿body
+{
+	font-size: 9pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.DetBody
+{
+	font-size: 9pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin-top: 0px;
+	
+}
+.captiontd
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	color: white;
+	background-color: #0099cc;
+	text-align: center;
+	font-weight: bold;
+	height:25px;
+}
+.bottomtd
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	height:25px;
+	background-color: gainsboro;
+}
+.font
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;	
+}
+.contenttable
+{
+	background-color: gainsboro;
+	padding-right: 1px;
+	padding-left: 1px;
+	padding-bottom: 1px;
+	margin: 0px;
+	padding-top: 1px;
+}
+.detailtd
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	width: 100px;
+	background-color: lightgrey;
+	vertical-align: middle;
+	text-align:center;
+	text-align: center;
+	height: 30px;
+}
+
+.controltd
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	width: 250px;
+	vertical-align:middle;
+	text-align:left;
+	background-color: #ffffff;
+	border-bottom: 1px dashed;
+}
+
+.controltdHB
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	width: 600px;
+	vertical-align:middle;
+	background-color: #ffffff;
+	border-bottom: 1px dashed;
+}
+
+.buttontd
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	width: 5%;
+	vertical-align:middle;
+	background-color: #ffffff;
+	border-bottom: 1px dashed;
+}
+
+INPUT
+{
+	border-right: lightgrey 1px solid;
+	border-top: lightgrey 1px solid;
+	border-left: lightgrey 1px solid;
+	border-bottom: lightgrey 1px solid;
+}
+.detailtable
+{
+	border-right: gainsboro 1px solid;
+	border-top: gainsboro 1px solid;
+	border-left: gainsboro 1px solid;
+	border-bottom: gainsboro 1px solid;
+	width: 700px;
+	
+}
+.multipletxt
+{
+	width:500px;
+	height:50px;
+}
+.contenttd
+{
+	border-right: gainsboro 1px solid;
+	border-top: gainsboro 1px solid;
+	border-left: gainsboro 1px solid;
+	border-bottom: gainsboro 1px solid;
+}
+.SelectedTopBorder
+{
+    border-right: Gray 1px solid;
+    border-top: Gray 1px solid;
+    background: none transparent scroll repeat 0% 0%;
+    border-left: Gray 1px solid;
+    color: black;
+    border-bottom: Gray 0px solid;
+}
+.TopBorder
+{
+    border-right: Gray 1px solid;
+    border-top: Gray 1px solid;
+    background: #DCDCDC;
+    border-left: Gray 1px solid;
+    color: black;
+    border-bottom: Gray 1px solid;
+}
+
+.SepBorder
+{
+    border-top-width: 0px;
+    border-left-width: 0px;
+    font-size: 1px;
+    border-bottom: Gray 1px solid;
+    border-right-width: 0px;
+}
+
+.SepBorderNew
+{
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom: Gray 1px solid;
+    border-right-width: 0px;
+}
+
+.ContentBorder
+{
+    border-right: Gray 1px solid;
+    border-top: Gray 0px solid;
+    border-left: Gray 1px solid;
+    border-bottom: Gray 1px solid;
+    height: 450px;
+    width: 100%;
+}
+
+.treediv
+{
+	left: 0px;
+	position: absolute;
+	top: 20px;
+}
+.middlediv
+{
+	left: 80px;
+	position: absolute;
+	top: 20px;
+}
+
+
+.tablewidth
+{
+	width:600px;
+}
+.devicedetailtable
+{
+	width: 600px;
+	border-right: 1px solid;
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+}
+
+
+/* The main calendar widget.  DIV containing a table. */
+div.calendar { position: relative; }
+
+.calendar, .calendar table {
+  border: 1px solid #565;
+  font-size: 11px;
+  color: #000;
+  cursor: default;
+  background: #efe;
+  font-family: tahoma,verdana,sans-serif;
+}
+
+/* Header part -- contains navigation buttons and day names. */
+
+.calendar .button { /* "<<", "<", ">", ">>" buttons have this class */
+  text-align: center;    /* They are the navigation buttons */
+  padding: 2px;          /* Make the buttons seem like they're pressing */
+  Spacing: 0px;
+  background: #B4C86F;
+  color: #fff;
+  font-size: 90%;
+}
+
+.calendar thead .title { /* This holds the current "month, year" */
+  font-weight: bold;      /* Pressing it will take you to the current date */
+  text-align: center;
+  padding: 1px;
+  background: #4D8038;
+  color: #efa;
+}
+
+.calendar thead .headrow { /* Row <TR> containing navigation buttons */
+}
+
+.calendar thead .name { /* Cells <TD> containing the day names */
+  border-bottom: 1px solid #565;
+  padding: 1px;
+  text-align: center;
+  color: #000;
+}
+
+.calendar thead .weekend { /* How a weekend day name shows in header */
+  color: #a66;
+}
+
+.calendar thead .hilite { /* How do the buttons in header appear when hover */
+  background: #afa;
+  color: #000;
+  border: 1px solid #084;
+  padding: 1px;
+}
+
+.calendar thead .active { /* Active (pressed) buttons in header */
+  background: #7c7;
+  padding: 1px 0px 0px 1px;
+}
+
+.calendar thead .daynames { /* Row <TR> containing the day names */
+  background: #dfb;
+}
+
+/* The body part -- contains all the days in month. */
+
+.calendar tbody .day { /* Cells <TD> containing month days dates */
+  width: 2em;
+  color: #564;
+  text-align: right;
+  padding: 2px 4px 2px 2px;
+}
+
+.calendar table .wn {
+  padding: 2px 3px 2px 2px;
+  border-right: 1px solid #000;
+  background: #dfb;
+}
+
+.calendar tbody .rowhilite td {
+  background: #dfd;
+}
+
+.calendar tbody .rowhilite td.wn {
+  background: #efe;
+}
+
+.calendar tbody td.hilite { /* Hovered cells <TD> */
+  background: #efd;
+  padding: 1px 3px 1px 1px;
+  border: 1px solid #bbb;
+}
+
+.calendar tbody td.active { /* Active (pressed) cells <TD> */
+  background: #dec;
+  padding: 2px 2px 0px 2px;
+}
+
+.calendar tbody td.selected { /* Cell showing today date */
+  font-weight: bold;
+  border: 1px solid #000;
+  padding: 1px 3px 1px 1px;
+  background: #f8fff8;
+  color: #000;
+}
+
+.calendar tbody td.weekend { /* Cells showing weekend days */
+  color: #a66;
+}
+
+.calendar tbody td.today { font-weight: bold; color: #0a0; }
+
+.calendar tbody .disabled { color: #999; }
+
+.calendar tbody .emptycell { /* Empty cells (the best is to hide them) */
+  visibility: hidden;
+}
+
+.calendar tbody .emptyrow { /* Empty row (some months need less than 6 rows) */
+  display: none;
+}
+
+/* The footer part -- status bar and "Close" button */
+
+.calendar tfoot .footrow { /* The <TR> in footer (only one right now) */
+  text-align: center;
+  background: #565;
+  color: #fff;
+}
+
+.calendar tfoot .ttip { /* Tooltip (status bar) cell <TD> */
+  padding: 2px;
+  background: #4D8038;
+  color: #efa;
+}
+
+.calendar tfoot .hilite { /* Hover style for buttons in footer */
+  background: #afa;
+  border: 1px solid #084;
+  color: #000;
+  padding: 1px;
+}
+
+.calendar tfoot .active { /* Active (pressed) style for buttons in footer */
+  background: #7c7;
+  padding: 2px 0px 0px 2px;
+}
+
+/* Combo boxes (menus that display months/years for direct selection) */
+
+.combo {
+  position: absolute;
+  display: none;
+  top: 0px;
+  left: 0px;
+  width: 4em;
+  cursor: default;
+  border: 1px solid #565;
+  background: #efd;
+  color: #000;
+  font-size: smaller;
+}
+
+.combo .label {
+  width: 100%;
+  text-align: center;
+}
+
+.combo .hilite {
+  background: #af8;
+}
+
+.combo .active {
+  border-top: 1px solid #6a4;
+  border-bottom: 1px solid #6a4;
+  background: #efe;
+  font-weight: bold;
+}
+
+/*   2009-06-11  新增的样式*/
+/***细线表格****/
+.slim_table
+{
+	margin: 0px auto;
+	border-collapse: collapse;
+	width: 100%;
+	border: black 1px solid;
+}
+/***细线表格表头（也是一个单元格，但与其它单元格颜色不一样）****/
+.slim_table_head
+{
+	background-color: #87cefa; /*lightskyblue*/
+	text-align: center;
+	font-weight: bold;
+	border: black 1px solid;
+}
+/***细线表格单元格描述(二列)****/
+.slim_table_td_desc
+{
+	text-align: center;
+	width: 15%;
+	border: black 1px solid;
+	background-color: #dcdcdc;
+	height:30px;
+}
+/***细线表格单元格控件(二列)****/
+.slim_table_td_control
+{
+	text-align: left;
+	width: 35%;
+	border: black 1px solid;
+	height:30px;
+}
+
+/***细线表格单元格描述(一列)****/
+.slim_table_td_desc_one
+{
+	text-align: center;
+	width: 30%;
+	border: black 1px solid;
+	background-color: #dcdcdc;
+	height:30px;
+}
+/***细线表格单元格控件(一列)****/
+.slim_table_td_control_one
+{
+	text-align: left;
+	width: 70%;
+	border: black 1px solid;
+	height:30px;
+}
+
+/*列表的头区*/
+#list_header
+{
+	font-weight: bold;
+	width: 100%;
+	text-align: left;
+	background-image: url(../../img/main_bar.jpg);
+}
+
+/*列表数据操作控件区*/
+#list_control
+{
+	text-align: left;
+	width: 100%;
+}
+
+/*列表数据显示区（主要是GridView）*/
+#list_data
+{
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+	height:300px;
+}
+
+/*列表分页控件显示区*/
+#list_pager
+{
+	vertical-align: middle;
+	text-align: left;
+	width: 100%;
+}
+
+/*列表显示分页信息（第几页 共几页）*/
+#pager_info
+{
+	font-size: 9pt;
+	color: black;
+	text-align: center;
+	width: 300px;
+}
+
+/*细节编辑界面的头区*/
+#detail_head
+{
+	width: 80%;
+	font-weight: bold;
+	font-size: 12pt;
+	background-image: url(../../img/bj.gif);
+	color: #330066;
+	text-align: center;
+	height: 25px;
+}
+
+/*细节编辑界面的显示区（主要是细线表格）*/
+#detail_data
+{
+	width: 80%;
+	text-align: center;
+}
+
+/*细节编辑界面的数据操作控件区*/
+#detail_control
+{
+	width: 80%;
+	text-align: right;
+}
+
+/*细节编辑界面的信息显示区*/
+#detail_info
+{
+	width: 80%;
+	text-align: left;
+	color: Red;
+	font-size: 10pt;
+}
+
+
+/*不可见表格,用于布局分页控件和数据操作控件*/
+.invisible_table
+{
+	padding: 0px;
+	margin: 0px;
+	width: 80%;
+	border-width:0px;
+	border-color: Blue;
+}
+
+/*不可见表格某单元格的属性,用于布局分页控件和数据操作控件*/
+.invisible_cell
+{
+	text-align: center;
+	width: 60px;
+}
+
+/*细节页面的顶部要空出部分，这样好看些*/
+.detail_body
+{
+	font-size: 9pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/*列表页面的左边和顶部不用留空间*/
+.list_body
+{
+	font-size: 9pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin-top: 0px;
+	margin-left: 0px;
+}

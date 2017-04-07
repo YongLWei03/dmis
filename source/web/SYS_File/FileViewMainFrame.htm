@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>文档查看</title>
+
+	<SCRIPT language="javascript">
+        window.moveTo(0,0); 
+        window.resizeTo(screen.availWidth,screen.availHeight);
+         function resizeframe()
+           {
+                var row=event.y;
+                window.queryID.rows=row+",*";
+           } 
+	</SCRIPT>
+</head>
+
+	<frameset framespacing="0" border="0" rows="100,*" frameborder="0">
+		<frame name="fileList"  src="frmFileList.aspx" scrolling="auto">
+		
+		<frame name="fileView" scrolling="yes" src="">
+		<noframes>
+			<body>
+				<p>此网页使用了框架，但您的浏览器不支持框架。</p>
+			</body>
+		</noframes>
+	</frameset>
+
+</html>

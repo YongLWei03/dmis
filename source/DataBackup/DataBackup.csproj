@@ -1,0 +1,275 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F83B5B63-56FC-4E4C-961A-2DAC7D68D371}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataBackup</RootNamespace>
+    <AssemblyName>DataBackup</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CMain.cs" />
+    <Compile Include="ExeDataBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExeDataBackup.Designer.cs">
+      <DependentUpon>ExeDataBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBackUpToBinary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBackUpToBinary.Designer.cs">
+      <DependentUpon>frmBackUpToBinary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBackUpToExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBackUpToExcel.Designer.cs">
+      <DependentUpon>frmBackUpToExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBackUpToSQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBackUpToSQL.Designer.cs">
+      <DependentUpon>frmBackUpToSQL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBackUpToXML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBackUpToXML.Designer.cs">
+      <DependentUpon>frmBackUpToXML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDataBackup.Designer.cs">
+      <DependentUpon>frmDataBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataConsistent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDataConsistent.Designer.cs">
+      <DependentUpon>frmDataConsistent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDataIn.Designer.cs">
+      <DependentUpon>frmDataIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDataModify.Designer.cs">
+      <DependentUpon>frmDataModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoadFromBinary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoadFromBinary.Designer.cs">
+      <DependentUpon>frmLoadFromBinary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoadFromExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoadFromExcel.Designer.cs">
+      <DependentUpon>frmLoadFromExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoadFromSQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoadFromSQL.Designer.cs">
+      <DependentUpon>frmLoadFromSQL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoadFromXML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoadFromXML.Designer.cs">
+      <DependentUpon>frmLoadFromXML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetTime.Designer.cs">
+      <DependentUpon>frmSetTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ExeDataBackup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ExeDataBackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBackUpToBinary.es.resx">
+      <DependentUpon>frmBackUpToBinary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBackUpToBinary.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBackUpToBinary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBackUpToExcel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBackUpToExcel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBackUpToSQL.es.resx">
+      <DependentUpon>frmBackUpToSQL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBackUpToSQL.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBackUpToSQL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBackUpToXML.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBackUpToXML.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataBackup.resx">
+      <DependentUpon>frmDataBackup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataConsistent.es.resx">
+      <DependentUpon>frmDataConsistent.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataConsistent.resx">
+      <DependentUpon>frmDataConsistent.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataIn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDataIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataModify.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDataModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoadFromBinary.es.resx">
+      <DependentUpon>frmLoadFromBinary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoadFromBinary.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLoadFromBinary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoadFromExcel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLoadFromExcel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoadFromSQL.es.resx">
+      <DependentUpon>frmLoadFromSQL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoadFromSQL.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLoadFromSQL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoadFromXML.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLoadFromXML.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetTime.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSetTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{30550143-EECA-49E7-BDC8-3031C7AEDB60}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Functions\Functions.csproj">
+      <Project>{67431824-63E2-41F8-9456-64A3FD039F30}</Project>
+      <Name>Functions</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="img\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

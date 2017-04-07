@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAcceptResource1.Text" xml:space="preserve">
+    <value>La aceptación de tarea</value>
+  </data>
+  <data name="btnAcceptResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="btnAddFileResource1.Text" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="btnAddFileResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="btnCloseResource1.Text" xml:space="preserve">
+    <value>Volver</value>
+  </data>
+  <data name="btnCloseResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="btnDelFileResource1.Text" xml:space="preserve">
+    <value>Suprimir</value>
+  </data>
+  <data name="btnDelFileResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="btnDownResource1.Text" xml:space="preserve">
+    <value>Descargar</value>
+  </data>
+  <data name="btnDownResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="btnPrintResource1.Text" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="btnPrintResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="btnRefreshResource1.Text" xml:space="preserve">
+    <value>Renovar</value>
+  </data>
+  <data name="btnRefreshResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="btnSaveCloseResource1.Text" xml:space="preserve">
+    <value>Conservar y volver</value>
+  </data>
+  <data name="btnSaveCloseResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="btnSaveResource1.Text" xml:space="preserve">
+    <value>Conservar</value>
+  </data>
+  <data name="btnSaveResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="btnSendResource1.Text" xml:space="preserve">
+    <value>Entregar</value>
+  </data>
+  <data name="btnSendResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="btnWithdrawResource1.Text" xml:space="preserve">
+    <value>Retirar</value>
+  </data>
+  <data name="btnWithdrawResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="dltFilesResource1.Caption" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="dltFilesResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="hcbSTATIONResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="imbSelectResource1.AlternateText" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="imbSelectResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="imbSelectResource2.AlternateText" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="imbSelectResource2.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="Label18Resource1.Text" xml:space="preserve">
+    <value>El director sanciona</value>
+  </data>
+  <data name="Label18Resource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="Label19Resource1.Text" xml:space="preserve">
+    <value>La hora que sanciona el director</value>
+  </data>
+  <data name="Label19Resource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblAPPLY_ENDTIMEResource1.Text" xml:space="preserve">
+    <value>La hora que termina a cortar la electricidad</value>
+  </data>
+  <data name="lblAPPLY_ENDTIMEResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblAPPLY_MANResource1.Text" xml:space="preserve">
+    <value>El peticionario</value>
+  </data>
+  <data name="lblAPPLY_MANResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblAPPLY_STARTTIMEResource1.Text" xml:space="preserve">
+    <value>La hora que comienza a cortar la electricidad</value>
+  </data>
+  <data name="lblAPPLY_STARTTIMEResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblAPPLY_UNITResource1.Text" xml:space="preserve">
+    <value>La entidad que solicita</value>
+  </data>
+  <data name="lblAPPLY_UNITResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblAPPROVE_ENDTIMEResource1.Text" xml:space="preserve">
+    <value>La hora sancionada que termina a cortar la electricidad</value>
+  </data>
+  <data name="lblAPPROVE_ENDTIMEResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblAPPROVE_MATTERSResource1.Text" xml:space="preserve">
+    <value>Atención</value>
+  </data>
+  <data name="lblAPPROVE_MATTERSResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblAPPROVE_STARTTIMEResource1.Text" xml:space="preserve">
+    <value>La hora sancionada que comienza a cortar la electricidad</value>
+  </data>
+  <data name="lblAPPROVE_STARTTIMEResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblAPPROVERResource1.Text" xml:space="preserve">
+    <value>La persona que se encarga de la manera</value>
+  </data>
+  <data name="lblAPPROVERResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblCONTENTResource1.Text" xml:space="preserve">
+    <value>El contenido de trabajo</value>
+  </data>
+  <data name="lblCONTENTResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblDescResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblDescResource2.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblDEVICE_NAMEResource1.Text" xml:space="preserve">
+    <value>Nombre del equipo que corte la electricidad</value>
+  </data>
+  <data name="lblDEVICE_NAMEResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblDISPATCH_FINISHEDTIMEResource1.Text" xml:space="preserve">
+    <value>La hora que termina el trabajo</value>
+  </data>
+  <data name="lblDISPATCH_FINISHEDTIMEResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblDISPATCH_IMPLEMENTATIONResource1.Text" xml:space="preserve">
+    <value>Casos de cumplimiento</value>
+  </data>
+  <data name="lblDISPATCH_IMPLEMENTATIONResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblDISPATCHERResource1.Text" xml:space="preserve">
+    <value>El operador</value>
+  </data>
+  <data name="lblDISPATCHERResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblFuncNameResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblFuncNameResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblLEADER_PHONEResource1.Text" xml:space="preserve">
+    <value>El teléfono del responsable de trabajo</value>
+  </data>
+  <data name="lblLEADER_PHONEResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblLEADERResource1.Text" xml:space="preserve">
+    <value>El responsable de trabajo</value>
+  </data>
+  <data name="lblLEADERResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblNOTEResource1.Text" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="lblNOTEResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblNUMResource1.Text" xml:space="preserve">
+    <value>Número</value>
+  </data>
+  <data name="lblNUMResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblRELATED_LINEResource1.Text" xml:space="preserve">
+    <value>Líneas de correlación</value>
+  </data>
+  <data name="lblRELATED_LINEResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblRELATED_UNITResource1.Text" xml:space="preserve">
+    <value>La entidad que coopera el trabajo</value>
+  </data>
+  <data name="lblRELATED_UNITResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lblSTATIONResource1.Text" xml:space="preserve">
+    <value>La subestación transformadora</value>
+  </data>
+  <data name="lblSTATIONResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lbnView1Resource1.Text" xml:space="preserve">
+    <value>Información básica del corte de electricidad</value>
+  </data>
+  <data name="lbnView1Resource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="lbnView2Resource1.Text" xml:space="preserve">
+    <value>Anexos</value>
+  </data>
+  <data name="lbnView2Resource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>El plan de revista y mantenimiento en el momento del corte de electricidad</value>
+  </data>
+  <data name="txtAPPLY_MANResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtAPPLY_MANResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtAPPLY_UNITResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtAPPLY_UNITResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtAPPROVE_MATTERSResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtAPPROVE_MATTERSResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtAPPROVERResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtAPPROVERResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtCONTENTResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtCONTENTResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtDEVICE_NAMEResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtDEVICE_NAMEResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtDIRECTORResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtDIRECTORResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtDISPATCH_IMPLEMENTATIONResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtDISPATCH_IMPLEMENTATIONResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtDISPATCHERResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtDISPATCHERResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtFLAGResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtFLAGResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtLEADER_PHONEResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtLEADER_PHONEResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtLEADERResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtLEADERResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtNOTEResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtNOTEResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtNUMResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtNUMResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtRELATED_LINEResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtRELATED_LINEResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtRELATED_UNITResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtRELATED_UNITResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtTIDResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="txtTIDResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="wdlAPPLY_ENDTIMEResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="wdlAPPLY_ENDTIMEResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="wdlAPPLY_STARTTIMEResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="wdlAPPLY_STARTTIMEResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="wdlAPPROVE_ENDTIMEResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="wdlAPPROVE_ENDTIMEResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="wdlAPPROVE_STARTTIMEResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="wdlAPPROVE_STARTTIMEResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="wdlDIRECTOR_TIMEResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="wdlDIRECTOR_TIMEResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="wdlDISPATCH_FINISHEDTIMEResource1.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="wdlDISPATCH_FINISHEDTIMEResource1.ToolTip" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+</root>

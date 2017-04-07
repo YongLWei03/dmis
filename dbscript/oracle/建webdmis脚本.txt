@@ -1,0 +1,16 @@
+create user webdmis identified by ytdf000 default tablespace users temporary tablespace TEMP;
+
+grant dba to webdmis;
+
+grant select any table to webdmis;
+
+grant create session to webdmis;
+
+grant create table to webdmis;
+
+grant create cluster to webdmis;
+
+grant create view to webdmis;
+
+grant select any table to webdmis;
+
